@@ -1,0 +1,11 @@
+{
+    "name": "sdk",
+    "private": true,
+    "scripts": {
+        "build": "yarn workspaces foreach run build",
+        "test": "yarn workspaces foreach run test"
+    },
+    "workspaces": [
+        "webpack-plugins/*"
+    ]
+}
