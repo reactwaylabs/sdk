@@ -23,9 +23,9 @@ jobs:
       - run: yarn install
       - run: yarn build
       - run: yarn test
-      - run: mkdir .artifacts
-      - run: yarn workspaces foreach --no-private pack --out .artifacts/%s-%v.tgz
+      - run: mkdir /var/tmp/.artifacts
+      - run: yarn workspaces foreach --no-private pack --out /var/tmp/.artifacts/%s-%v.tgz
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v2.2.1
         with:
-          path: .artifacts
+          path: /var/tmp/.artifacts
