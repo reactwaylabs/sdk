@@ -18,11 +18,11 @@ jobs:
         id: package-version
         uses: martinbeentjes/npm-get-version-action@master
         with:
-          path: server/
+          path: ./server
       - name: Build Docker
-        uses: docker/build-push-action@v1
+        uses: docker/build-push-action@v2
         with:
-          context: server/
+          context: ./server
           username: ${{ github.actor }}
           password: ${{ github.token }}
           registry: ghcr.io
