@@ -1,5 +1,6 @@
 {
     "name": "server",
+    "version": "0.2.0",
     "private": true,
     "scripts": {
         "build": "rollup -c",
