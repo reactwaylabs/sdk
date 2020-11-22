@@ -1,0 +1,7 @@
+{
+    "name": "sdk",
+    "private": true,
+    "workspaces": [
+        "webpack-plugins/*"
+    ]
+}
