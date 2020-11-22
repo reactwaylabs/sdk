@@ -1,0 +1,13 @@
+node_modules
+dist
+
+**/*.js.map
+
+coverage
+junit.xml
+__snapshots__
+
+Dockerfile
+
+.yarn/cache
+.yarn/unplugged
