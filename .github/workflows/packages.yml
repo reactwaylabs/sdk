@@ -40,5 +40,5 @@ jobs:
         with:
           registry: https://npm.pkg.github.com
         env:
-          NPM_TOKEN: ${{ secrets.CR_PAT }}
+          REGISTRY_TOKEN: ${{ secrets.CR_PAT }}
         
