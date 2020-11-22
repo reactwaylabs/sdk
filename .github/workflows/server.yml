@@ -1,12 +1,6 @@
 name: Server
 
 on:
-  pull_request:
-    branches: 
-      - main
-      - dev
-    paths: 
-      - server
   push: 
     branches: 
       - main
