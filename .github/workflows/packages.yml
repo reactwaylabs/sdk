@@ -35,9 +35,9 @@ jobs:
       - name: Download a Build Artifact
         uses: actions/download-artifact@v2.0.6
       - name: Publish to NPM 
-        uses: author/action-publish@stable
+        uses: MartynasZilinskas/action-publish@v1.1
         with:
-          registry: https://npm.pkg.github
+          registry: https://npm.pkg.github.com
         env:
           NPM_TOKEN: ${{ secrets.CR_PAT }}
         
