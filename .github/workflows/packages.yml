@@ -23,11 +23,12 @@ jobs:
       - run: yarn install
       - run: yarn build
       - run: yarn test
-      - run: mkdir /var/tmp/.artifacts  
+      - run: mkdir /var/tmp/.artifacts       
       - run: yarn workspaces foreach --no-private pack --out /var/tmp/.artifacts/%s-%v.tgz
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v2.2.1
         with:
+          name: artifact
           path: /var/tmp/.artifacts
   publish:
     runs-on: ubuntu-latest
@@ -35,10 +36,7 @@ jobs:
     steps:
       - name: Download a Build Artifact
         uses: actions/download-artifact@v2.0.6
-      - name: Publish to NPM 
-        uses: MartynasZilinskas/action-publish@v1.1
         with:
-          registry: https://npm.pkg.github.com
-        env:
-          REGISTRY_TOKEN: ${{ secrets.CR_PAT }}
+          name: artifact
+          path: .
         
