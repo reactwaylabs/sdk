@@ -43,3 +43,4 @@ jobs:
         uses: reactway/npm-multi-publish-action@v0.1.2
         with:
           token: ${{ secrets.NPM_REGISTRY_TOKEN }}
+          registry: registry.npmjs.org/
