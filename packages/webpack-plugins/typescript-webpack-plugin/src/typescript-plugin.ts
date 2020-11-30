@@ -20,7 +20,7 @@ export class ReactwayTypeScriptPlugin {
         compiler.options.resolveLoader.modules = [
             ...(compiler.options.resolveLoader.modules ?? ["node_modules"]),
             path.resolve(__dirname, "../node_modules")
-            // Testing with linking.
+            // For local testing with yarn linking.
             // path.resolve(__dirname, "../../../node_modules")
         ];
 
