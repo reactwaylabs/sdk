@@ -2,11 +2,10 @@
     "name": "sdk",
     "private": true,
     "scripts": {
-        "build": "yarn workspaces foreach run build",
-        "test": "yarn workspaces foreach run test"
+        "build": "yarn workspaces foreach --no-private run build",
+        "test": "yarn workspaces foreach --no-private run test "
     },
     "workspaces": [
-        "webpack-plugins/*",
-        "examples/*"
+        "webpack-plugins/*"
     ]
 }

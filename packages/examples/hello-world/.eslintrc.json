@@ -1,6 +1,0 @@
-{
-    "extends": ["@reactway/eslint-config/react"],
-    "rules": {
-        "@typescript-eslint/generic-type-naming": "off"
-    }
-}
