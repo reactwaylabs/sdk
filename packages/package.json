@@ -6,6 +6,7 @@
         "test": "yarn workspaces foreach run test"
     },
     "workspaces": [
-        "webpack-plugins/*"
+        "webpack-plugins/*",
+        "examples/*"
     ]
 }

@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "module": "esnext",
+        "target": "ES6",
+        "strict": true,
+        "esModuleInterop": true,
+        "rootDir": "src",
+        "outDir": "dist",
+        "jsx": "react",
+        "moduleResolution": "node",
+        "forceConsistentCasingInFileNames": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "noUnusedLocals": true,
+        "importHelpers": true,
+    },
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}

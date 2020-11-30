@@ -10,5 +10,6 @@
     "eslint.workingDirectories": [
         "./packages/webpack-plugins/typescript-webpack-plugin",
         "./packages/webpack-plugins/css-webpack-plugin",
+        "./packages/examples/hello-world",
     ]
 }

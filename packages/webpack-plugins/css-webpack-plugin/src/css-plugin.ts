@@ -2,7 +2,7 @@
 import type { Compiler, RuleSetRule } from "webpack";
 import path from "path";
 import autoprefixer from "autoprefixer";
-import MiniCssExtractPlugin from "mini-css-extract-plugin";
+// import MiniCssExtractPlugin from "mini-css-extract-plugin";
 
 export interface CSSPluginOptions {}
 
@@ -21,7 +21,7 @@ export class ReactwayCSSPlugin {
         const rule: RuleSetRule = {
             test: /\.css$/i,
             use: [
-                MiniCssExtractPlugin.loader,
+                // MiniCssExtractPlugin.loader,
                 "style-loader",
                 "css-loader",
                 {
