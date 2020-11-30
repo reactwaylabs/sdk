@@ -1,0 +1,15 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.DS_Store": true,
+        "**/node_modules": true,
+        "**/yarn.lock": true,
+        "**/tsconfig.tsbuildinfo": true
+    },
+    "cSpell.words": [],
+    "eslint.workingDirectories": [
+        "./packages/webpack-plugins/typescript-webpack-plugin",
+        "./packages/webpack-plugins/css-webpack-plugin",
+        "./packages/examples/hello-world",
+    ]
+}
