@@ -2,8 +2,8 @@
 import type { Compiler, RuleSetRule } from "webpack";
 import path from "path";
 import autoprefixer from "autoprefixer";
-// import MiniCssExtractPlugin from "mini-css-extract-plugin";
 
+// eslint-disable-next-line @typescript-eslint/no-empty-interface
 export interface CSSPluginOptions {}
 
 export class ReactwayCSSPlugin {
@@ -21,7 +21,6 @@ export class ReactwayCSSPlugin {
         const rule: RuleSetRule = {
             test: /\.css$/i,
             use: [
-                // MiniCssExtractPlugin.loader,
                 "style-loader",
                 "css-loader",
                 {
