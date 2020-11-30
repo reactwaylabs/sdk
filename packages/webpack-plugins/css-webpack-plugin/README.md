@@ -1,11 +1,11 @@
-# typescript-webpack-plugin
+# css-webpack-plugin
 
 ## Getting started
 
 ```sh
-$ npm install @rw-sdk/typescript-webpack-plugin @babel/core @babel/preset-env --save-dev
+$ npm install @rw-sdk/css-webpack-plugin --save-dev
 ```
 
 ```sh
-$ yarn add @rw-sdk/typescript-webpack-plugin @babel/core @babel/preset-env --dev
+$ yarn add @rw-sdk/css-webpack-plugin --dev
 ```
