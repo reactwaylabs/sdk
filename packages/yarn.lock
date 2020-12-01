@@ -101,7 +101,7 @@ __metadata:
     style-loader: ^2.0.0
     tslib: ^2.0.3
     typescript: 4.1.2
-    webpack: 5.6.0
+    webpack: 5.9.0
   languageName: unknown
   linkType: soft
 
@@ -119,7 +119,7 @@ __metadata:
     tsconfig-paths-webpack-plugin: ^3.3.0
     tslib: ^2.0.3
     typescript: 4.1.2
-    webpack: 5.6.0
+    webpack: 5.9.0
   peerDependencies:
     "@babel/core": ^7.12.3
     "@babel/preset-env": ^7.12.1
@@ -3652,7 +3652,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"tapable@npm:^2.0.0":
+"tapable@npm:^2.0.0, tapable@npm:^2.1.1":
   version: 2.1.1
   resolution: "tapable@npm:2.1.1"
   checksum: 02f2c18d9faaeb4b084af4c3cfbdfe87a89032083bc34103f40595e3eb41a8e6c619ba01726622f9d469a47cd6080af2ca975a2e5a94d5e5c2a7302a327c98a3
@@ -3945,9 +3945,9 @@ typescript@4.1.2:
   languageName: node
   linkType: hard
 
-"webpack@npm:5.6.0":
-  version: 5.6.0
-  resolution: "webpack@npm:5.6.0"
+"webpack@npm:5.9.0":
+  version: 5.9.0
+  resolution: "webpack@npm:5.9.0"
   dependencies:
     "@types/eslint-scope": ^3.7.0
     "@types/estree": ^0.0.45
@@ -3969,7 +3969,7 @@ typescript@4.1.2:
     neo-async: ^2.6.2
     pkg-dir: ^4.2.0
     schema-utils: ^3.0.0
-    tapable: ^2.0.0
+    tapable: ^2.1.1
     terser-webpack-plugin: ^5.0.3
     watchpack: ^2.0.0
     webpack-sources: ^2.1.1
@@ -3978,7 +3978,7 @@ typescript@4.1.2:
       optional: true
   bin:
     webpack: bin/webpack.js
-  checksum: de447841ebda5b18ad4c34b41b31bf57abdf23ca905a61f3ec817a4002cd8691eb75b07d0e37c48d6d14c0f78959b9d03398e643ea919e7df97f05218f1e779e
+  checksum: 8534b14b722938fdf216efc5e17318335790fa0160d498c3623078e5e341a227afd9f65d659f985d588d3ee5ed0a37a7adec917b10b3a719b6fea8b76ebc1d92
   languageName: node
   linkType: hard
 
