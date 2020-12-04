@@ -1,7 +1,7 @@
 {
-    "name": "@rw-sdk/sass-webpack-plugin",
+    "name": "@rw-sdk/css-webpack-plugin",
     "version": "0.1.2",
-    "description": "SASS plugin for webpack. (LEGACY)",
+    "description": "CSS plugin for webpack.",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "scripts": {
