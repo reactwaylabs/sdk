@@ -17,7 +17,7 @@
     "author": "Reactway <dev@reactway.com> (https://github.com/reactway)",
     "devDependencies": {
         "@reactway/eslint-config": "1.0.4",
-        "eslint": "7.14.0",
+        "eslint": "7.15.0",
         "prettier": "2.2.1",
         "typescript": "4.1.2",
         "webpack": "5.9.0"
