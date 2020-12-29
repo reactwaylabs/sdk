@@ -25,7 +25,8 @@ const PUBLIC_DATA_PREFIX = `${PUBLIC_DATA_KEY}_`;
 const settings = {
     port: process.env[`${SETTINGS_PREFIX}PORT`] ?? 80,
     assetsPath: process.env[`${SETTINGS_PREFIX}ASSETS_PATH`] ?? "wwwroot",
-    publicDataOmitPrefixKey: process.env[`${SETTINGS_PREFIX}PUBLIC_DATA_OMIT_PREFIX_KEY`] === "true"
+    publicDataOmitPrefixKey: process.env[`${SETTINGS_PREFIX}PUBLIC_DATA_OMIT_PREFIX_KEY`] === "true",
+    publicDataServeJson: process.env[`${SETTINGS_PREFIX}PUBLIC_DATA_SERVE_JSON`] !== "false"
 };
 
 export const variables = {
