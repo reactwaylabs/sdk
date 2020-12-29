@@ -16,7 +16,7 @@ FROM node:14.15-alpine
 
 WORKDIR /app
 
-COPY --from=build /app/dist/server.js /app
+COPY --from=build /app/dist/index.js /app
 RUN mkdir /app/wwwroot
 
-CMD ["node", "server.js"]
+CMD ["node", "index.js"]
