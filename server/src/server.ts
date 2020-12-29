@@ -15,6 +15,13 @@ app.use((_req, res, next) => {
 
 app.get("/", indexHandler);
 app.use(express.static(variables.staticFilesAbsolutePath));
+
+if (variables.settings.publicDataServeJson) {
+    app.get("/app-data.json", (_, res) => {
+        res.send(variables.publicDataValues);
+    });
+}
+
 app.get("*", indexHandler);
 
 app.listen(variables.settings.port, () => {
