@@ -40,7 +40,7 @@ jobs:
     if: ${{ github.event_name != 'pull_request' }}
     steps:
       - name: Download a Build Artifact
-        uses: actions/download-artifact@v2.0.7
+        uses: actions/download-artifact@v2.0.8
         with:
           name: artifact
           path: .
