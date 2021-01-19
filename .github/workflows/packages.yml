@@ -30,7 +30,7 @@ jobs:
       - run: mkdir /var/tmp/.artifacts
       - run: yarn workspaces foreach --no-private pack --out /var/tmp/.artifacts/%s-%v.tgz
       - name: Upload a Build Artifact
-        uses: actions/upload-artifact@v2.2.1
+        uses: actions/upload-artifact@v2.2.2
         with:
           name: artifact
           path: /var/tmp/.artifacts
